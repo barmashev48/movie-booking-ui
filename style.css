@@ -50,6 +50,10 @@ li {
   cursor: pointer;
 }
 
+.seat:not(.occupied):hover {
+  transform: scale(1.2);
+}
+
 .seat.occupied {
   background-color: #f1ddb8;
 }
